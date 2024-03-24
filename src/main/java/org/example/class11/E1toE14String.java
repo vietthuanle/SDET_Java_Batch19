@@ -1,6 +1,6 @@
 package org.example.class11;
 
-public class E1toE11String {
+public class E1toE14String {
     public static void main(String[] args) {
         String str = new String("Long time no see");
 

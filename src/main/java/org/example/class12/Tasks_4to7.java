@@ -1,7 +1,7 @@
 package org.example.class12;
 
-public class CheckNumber {
-    void compareNumbers(int num1, int num2) {
+public class Tasks_4to7 {
+    void whichNumberIsLarger(int num1, int num2) {
         if (num1 - num2 < 0) {
             System.out.println(num2 + " is larger than " + num1);
         } else if (num1 - num2 > 0) {
@@ -11,7 +11,7 @@ public class CheckNumber {
         }
     }
 
-    void EvenOrOdd(int num) {
+    void isNumberEvenOrOdd(int num) {
         if (num % 2 == 0) {
             System.out.println(num + " is an even number");
         } else {
@@ -19,7 +19,7 @@ public class CheckNumber {
         }
     }
 
-    void PalindromeCheck(String str) {
+    void isPalindrome(String str) {
         StringBuilder st = new StringBuilder(str);
         st.reverse();
         String reverse = st.toString();
@@ -29,7 +29,7 @@ public class CheckNumber {
             System.out.println(str + " is not a palindrome");
         }
     }
-    void LanguageChange(String country){
+    void languageChange(String country){
         switch (country.toLowerCase()){
             case "china":
                 System.out.println("你好");

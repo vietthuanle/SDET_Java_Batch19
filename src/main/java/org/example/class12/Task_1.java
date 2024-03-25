@@ -2,18 +2,12 @@ package org.example.class12;
 
 public class Task_1 {
     public static void main(String[] args) {
-        String word = "aba";
-        StringBuilder sb = new StringBuilder(word);
-        sb.reverse();
-        String reverseWord = sb.toString();
-        if (word.equals(reverseWord)) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
+        String str = "This is sentence i want to reverse";
+        String[] reverse = str.split(" ");
+        StringBuilder st;
+        for (String s : reverse) {
+            st = new StringBuilder(s);
+            System.out.print(st.reverse() + " ");
         }
-
-        StringBuilder st =new StringBuilder("aba");
-        StringBuilder st2 = new StringBuilder("ab2a");
-        System.out.println(st.toString().equals(st2.toString()));
     }
 }
